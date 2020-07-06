@@ -39,10 +39,10 @@ def test():
     print('2. To decompose a program into several small subroutines.')
     print('3. To determine the execution time of a program.')
     print('4. To interrupt the execution of a program.')
-    responded_correctly = False
-    while not responded_correctly:
+    continue_loop = True
+    while continue_loop:
         if input() == '2':
-            responded_correctly = True
+            continue_loop = False
         else:
             print("Please, try again.")
 
